@@ -1,0 +1,35 @@
+git init ( en folder )
+git config --global user.name "se7enwin"
+git config -- global user.email "se7enwin@hotmail.com"
+notepad++
+touch info.txt
+touch index.html
+touch package.json
+git status
+visual ./
+Estructura json: 
+{
+  "name": "Ejemplo-React-Redux-Json",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.5.3",
+	"react-scripts": "5.0.1",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0"
+	
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test ",
+    "eject": "react-scripts eject"
+  }
+}
+
+
+-----------------------------------
+
