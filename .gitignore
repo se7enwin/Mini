@@ -2,5 +2,5 @@
 node_modules
 # Ignora los archivos relacionados a API keys
 .env
-# Ignora arhivos txt
-.txt
+# Ignora arhivo txt
+info.txt

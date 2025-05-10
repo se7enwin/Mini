@@ -1,0 +1,45 @@
+Antes:
+
+git init
+git config --global user.name "se7enwin"
+git config -- global user.email "se7enwin@hotmail.com"
+touch .gitignore
+nano .gitignore
+# Ignora la carpeta node_modules
+node_modules
+# Ignora los archivos relacionados a API keys
+.env
+# Ignora archivo info.txt
+info.txt
+
+touch info.txt
+touch index.html
+
+
+
+
+
+Despues:
+
+touch package.json
+nano package.json
+{
+  "name": "react-redux-json",
+  "version": "0.1",
+  "private": true,
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.5.3",
+    "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test ",
+    "eject": "react-scripts eject"
+  },
+
