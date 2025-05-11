@@ -1,8 +1,15 @@
 
-export default function Nav() {
+import Busca from './Busca'
+export default function Nav(props) {
 
     return (
 
-        <h3> Barra de Navegación </h3>
+        <div>
+
+            <span> Barra de Navegación  </span>
+            <Busca onSearch={props.onSearch} />
+
+        </div>
+
     )
 }
