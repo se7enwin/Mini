@@ -1,4 +1,5 @@
 import Nav from './Component/Nav/Nav'
+import Perfiles from './Component/Perfiles/Perfiles'
 import Perfil from './Component/Perfil/Perfil'
 import { Route, Routes, useLocation, useNavegation } from 'react-router-dom';
 import { useState } from 'react';
@@ -42,7 +43,7 @@ export default function App() {
     }
 
 
-
+    console.log('Caballeros desde App: ', caballeros)
 
 
 
@@ -86,6 +87,7 @@ export default function App() {
             <h3>Componente Función desde Jsx - Local </h3>
             <hr />
             <Nav onSearch={onSearch} />
+            <Perfiles caballeros={caballeros} />
             <Routes>
                 <Route path='/perfil' element={<Perfil />} />
 
